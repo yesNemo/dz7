@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    Font-family: "Open Sans";
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h2{
+    text-align: center;
+    /*padding-top: 100px;*/
+}
+ul{
+    display: block;
+    list-style: none;
+}
+.main-frame{
+    width: 970px;
+    margin: 0 auto;
+    background-color: white;
+}
+h1{
+    margin-bottom: 50px ;
+    margin-top: 12px;
+    font-size: 48px;
+}
+
+hr{
+    width: 700px;
+    color: #828282;
+}
+
+/*Section Hero*/
+.photoDenis{
+    max-width: 970px;
+    width: 970px;
+    height: 387px;
+    margin-bottom: 0px;
+}
+/*Section AboutME*/
+.titleAboutMe{
+    margin-top: 0px;
+    padding-top: 100px;
+}
+.aboutMe{
+    background-color: silver;
+    width: 970px;
+    height: 500px;
+}
+.aboutMeP{
+    width: 480px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.list-nav{
+    display: flex;
+    justify-content: center;
+}
+.list-nav_sep{
+    margin-right: 40px;
+    padding-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
+.list-nav_sep:hover {
+    color: black;
+}
+.photoAll {
+    width: 940px;
+    margin: 0 auto;
+}
+/*Block Skills*/
+.skills{
+    background-color: antiquewhite ;
+    height: 565px;
+    margin-bottom: 100px;
+}
+.titleClassBlock{
+    padding-top: 100px;
+}
+.skillsList{
+    display: flex;
+    justify-content: center;
+}
+.skillsdiv{
+    width: 100%;
+    margin-top: 50px;
+    /*padding-top: ;*/
+}
+.imgskill{
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+.nameskill{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.imgstar{
+    margin: 0 auto;
+    display: block;
+    padding-top: 60px;
+}
+/*Portfolio*/
+.portfolio h2{
+    padding-bottom: 40px;
+}
+.portfoliophoto{
+    width: 100%;
+}
+.itsnameportfolio{
+    display: block;
+    margin: 0   auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    /*margin-left: 320px;*/
+    /*я вообще нз чого воно по іншому не стає. Що потрібно прописати щоб стало по центрі?Мардж, паддінг, трансформс */
+    /*все в пусту*/
+}
+.contactTitle{
+    padding-top: 100px;
+}
+.sectionfooter p{
+    color: #828282;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+.sendmsgbut{
+    margin: 0 auto;
+    display: block;
+    width: 180px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+}
+.iconfooter{
+    display: flex;
+    justify-content: center;
+}
+.iconsf{
+    margin-right: 40px;
+    padding-top: 25px;
+}
+.sectionfooter h6{
+    text-align: center;
+}
